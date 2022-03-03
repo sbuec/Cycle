@@ -10,10 +10,18 @@ class Point:
         y = self._y + dy
         return Point(x, y)
 
-    
+    def get_x(self):
+        return self._x
 
-'''
-class Point_RFK:
+    def get_y(self):
+        return self._y
+
+
+
+
+
+
+class PointRFK:
     def __init__(self, x, y):
         self._x = x
         self._y = y
@@ -34,4 +42,3 @@ class Point_RFK:
 
     def scale(self, factor):
         return Point(self._x * factor, self._y * factor)
-'''
