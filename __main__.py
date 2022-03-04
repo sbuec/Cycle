@@ -7,7 +7,7 @@ from shared.point import Point
 from casting.actor import Actor
 from casting.cast import Cast
 
-from directing.director import Director
+from Directing.director import Director
 
 FRAME_RATE = 12
 MAX_X = 900
